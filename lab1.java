@@ -31,7 +31,7 @@ public class lab1 {
 				a[i][j] = (float)Math.sin(Math.sin(x[j]+1)/3);
 				else
 				a[i][j] = (float)Math.cos(Math.pow(Math.pow(Math.PI + x[j],1.0/3),Math.sin(x[j])*((Math.pow(Math.cos(x[j]),(Math.pow(x[j]/3,3)+1)/2)-1/4))));
-				System.out.printf ("%.4f     ", a[i][j]);
+				System.out.printf ("%.4f   ", a[i][j]);
 			}
 		System.out.println ();
 		}
