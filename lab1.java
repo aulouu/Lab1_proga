@@ -1,4 +1,4 @@
-public class lab0 {
+public class lab1 {
     public static void main(String[] args) {
 		int p=19;
 		int [] c = new int [15];
